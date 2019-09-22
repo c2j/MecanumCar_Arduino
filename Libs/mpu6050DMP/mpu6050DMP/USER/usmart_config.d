@@ -1,0 +1,13 @@
+usmart_config.o: ..\USMART\usmart_config.c
+usmart_config.o: ..\USMART\usmart.h
+usmart_config.o: ..\USMART\usmart_str.h
+usmart_config.o: ..\SYSTEM\delay\delay.h
+usmart_config.o: ..\SYSTEM\sys\stm32f10x_map.h
+usmart_config.o: ..\SYSTEM\sys\stm32f10x_conf.h
+usmart_config.o: ..\SYSTEM\sys\stm32f10x_type.h
+usmart_config.o: ..\SYSTEM\sys\cortexm3_macro.h
+usmart_config.o: ..\SYSTEM\usart\usart.h
+usmart_config.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+usmart_config.o: C:\Keil\ARM\RV31\INC\stdio.h
+usmart_config.o: ..\SYSTEM\sys\sys.h
+usmart_config.o: ..\CODE\led.h

@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "startup_stm32f10x_hd.o" "delay.o" "sys.o" "usart.o" "proj.o" "led.o" "key.o" "usmart.o" "usmart_config.o" "usmart_str.o" "ioi2c.o" "inv_mpu.o" "inv_mpu_dmp_motion_driver.o" "dmpctl.o" --strict --scatter "PROJ.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\PROJ.map" -o "PROJ.axf"
